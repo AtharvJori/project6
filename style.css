@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: skyblue;
+    background-image: url(img/nike.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
+}
+.img{
+    width: 8rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.search{
+    width: 2rem;
+    height: 2rem;
+    border: 1px s;
+    padding: 5px;
+    padding-right: 0px;
+}
+.bag{
+    width: 2rem;
+    height: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+
+    }
+li{
+    list-style: none;
+    margin-right: 20px;
+    }  
+div{
+    display: flex;
+
+}
+.od{
+    justify-content: flex-end;
+}  
+a{
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration:none;
+    text-transform: capitalize;
+    background: var(--rich-black); 
+}
+
+input[type="search"]{
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    background-color: rgb(54, 52, 52) ;
+}
+input[type="submit"]{
+    width: 8rem;
+ border: 2px solid ;
+border-radius: 10px;
+background-color: transparent;
+color:  rgb(54, 52, 52));
+padding: 10px;
+outline: none;
+cursor: pointer;
+margin-top: 200px;
+margin-left: 1200px;
+ }
+ h2{
+     margin-top: 200px;
+     margin-left: 175px;
+     color: rgb(54, 52, 52);
+ }
+ h1{
+     margin-left: 175px;
+ }
+ .p{
+     margin-left: 175px;
+ }
+ select{
+     margin: 5px;
+     padding: 5px;
+     width: 100px;
+     border-radius: 10px;
+     outline: none;
+     background-color:black;
+     color: white;
+     border-color:rgb(54, 52, 52);
+    
+ }
+ .quantity{
+     margin-left: 175px;
+ }
+ .social{
+     display: flex;
+     justify-content: flex-start;
+ }
+ .social-links a{
+  padding-left: 2rem;
+  border: none;
+
+ }
+ .social-links img{
+     width: 30px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 10px;
+     
+ }
+ .btn :hover{
+    box-shadow: 2px 2px 2px 2px black;
+    background-color: white;
+    width: 9rem;
+ }
